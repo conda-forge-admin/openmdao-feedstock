@@ -164,6 +164,3 @@ Feedstock Maintainers
 * [@robfalck](https://github.com/robfalck/)
 * [@swryan](https://github.com/swryan/)
 
-
-<!-- dummy commit to enable rerendering -->
-
