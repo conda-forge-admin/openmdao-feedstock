@@ -3,11 +3,129 @@ About openmdao-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/openmdao-feedstock/blob/main/LICENSE.txt)
 
+
+About openmdao
+--------------
+
 Home: https://openmdao.org/
 
 Package license: Apache-2.0
 
 Summary: OpenMDAO framework infrastructure
+
+Development: https://github.com/OpenMDAO/OpenMDAO
+
+Documentation: https://openmdao.org/docs
+
+OpenMDAO is an open-source high-performance computing platform
+for systems analysis and multidisciplinary optimization, written in Python. It
+enables you to decompose your models, making them easier to build and maintain,
+while still solving them in a tightly coupled manner with efficient parallel
+numerical methods.
+
+About openmdao-with-all
+-----------------------
+
+Home: https://openmdao.org/
+
+Package license: Apache-2.0
+
+Summary: OpenMDAO framework infrastructure (with all extras)
+
+Development: https://github.com/OpenMDAO/OpenMDAO
+
+Documentation: https://openmdao.org/docs
+
+OpenMDAO is an open-source high-performance computing platform
+for systems analysis and multidisciplinary optimization, written in Python. It
+enables you to decompose your models, making them easier to build and maintain,
+while still solving them in a tightly coupled manner with efficient parallel
+numerical methods.
+
+About openmdao-with-doe
+-----------------------
+
+Home: https://openmdao.org/
+
+Package license: Apache-2.0
+
+Summary: OpenMDAO framework infrastructure (with [doe])
+
+Development: https://github.com/OpenMDAO/OpenMDAO
+
+Documentation: https://openmdao.org/docs
+
+OpenMDAO is an open-source high-performance computing platform
+for systems analysis and multidisciplinary optimization, written in Python. It
+enables you to decompose your models, making them easier to build and maintain,
+while still solving them in a tightly coupled manner with efficient parallel
+numerical methods.
+
+About openmdao-with-jax
+-----------------------
+
+Home: https://openmdao.org/
+
+Package license: Apache-2.0
+
+Summary: OpenMDAO framework infrastructure (with [jax])
+
+Development: https://github.com/OpenMDAO/OpenMDAO
+
+Documentation: https://openmdao.org/docs
+
+OpenMDAO is an open-source high-performance computing platform
+for systems analysis and multidisciplinary optimization, written in Python. It
+enables you to decompose your models, making them easier to build and maintain,
+while still solving them in a tightly coupled manner with efficient parallel
+numerical methods.
+
+About openmdao-with-notebooks
+-----------------------------
+
+Home: https://openmdao.org/
+
+Package license: Apache-2.0
+
+Summary: OpenMDAO framework infrastructure (with [notebooks])
+
+Development: https://github.com/OpenMDAO/OpenMDAO
+
+Documentation: https://openmdao.org/docs
+
+OpenMDAO is an open-source high-performance computing platform
+for systems analysis and multidisciplinary optimization, written in Python. It
+enables you to decompose your models, making them easier to build and maintain,
+while still solving them in a tightly coupled manner with efficient parallel
+numerical methods.
+
+About openmdao-with-numba
+-------------------------
+
+Home: https://openmdao.org/
+
+Package license: Apache-2.0
+
+Summary: OpenMDAO framework infrastructure (with [numba])
+
+Development: https://github.com/OpenMDAO/OpenMDAO
+
+Documentation: https://openmdao.org/docs
+
+OpenMDAO is an open-source high-performance computing platform
+for systems analysis and multidisciplinary optimization, written in Python. It
+enables you to decompose your models, making them easier to build and maintain,
+while still solving them in a tightly coupled manner with efficient parallel
+numerical methods.
+
+About openmdao-with-visualization
+---------------------------------
+
+Home: https://openmdao.org/
+
+Package license: Apache-2.0
+
+Summary: OpenMDAO framework infrastructure (with [visualization])
 
 Development: https://github.com/OpenMDAO/OpenMDAO
 

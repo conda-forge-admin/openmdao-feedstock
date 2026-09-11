@@ -57,6 +57,13 @@ outputs:
           - openmdao --help
           - webview --help
           - wingproj --help
+    about:
+      description: |
+        OpenMDAO is an open-source high-performance computing platform
+        for systems analysis and multidisciplinary optimization, written in Python. It
+        enables you to decompose your models, making them easier to build and maintain,
+        while still solving them in a tightly coupled manner with efficient parallel
+        numerical methods.
 
   - package:
       name: openmdao-with-doe
@@ -232,12 +239,6 @@ about:
   license: Apache-2.0
   license_file: LICENSE.txt
   summary: ${{ summary }}
-  description: |
-    OpenMDAO is an open-source high-performance computing platform
-    for systems analysis and multidisciplinary optimization, written in Python. It
-    enables you to decompose your models, making them easier to build and maintain,
-    while still solving them in a tightly coupled manner with efficient parallel
-    numerical methods.
   homepage: https://openmdao.org
   repository: https://github.com/OpenMDAO/OpenMDAO
   documentation: https://openmdao.org/docs
