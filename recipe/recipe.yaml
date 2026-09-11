@@ -4,13 +4,14 @@ schema_version: 1
 context:
   version: "3.45.0"
   python_check_max: "3.14"
+  summary: OpenMDAO framework infrastructure
 
 recipe:
   name: openmdao
   version: ${{ version }}
 
 source:
-  url: https://pypi.org/packages/source/o/openmdao/openmdao-${{ version }}.tar.gz
+  url: https://files.pythonhosted.org/packages/source/o/openmdao/openmdao-${{ version }}.tar.gz
   sha256: 2e342398386230706999433a0eafc3df566e71f89709479323c3f00ab1b69e54
 
 build:
@@ -79,6 +80,8 @@ outputs:
           - openmdao --help
           - webview --help
           - wingproj --help
+    about:
+      summary: ${{ summary }} (with [doe])
 
   - package:
       name: openmdao-with-jax
@@ -103,6 +106,8 @@ outputs:
           - openmdao --help
           - webview --help
           - wingproj --help
+    about:
+      summary: ${{ summary }} (with [jax])
 
   - package:
       name: openmdao-with-notebooks
@@ -128,6 +133,8 @@ outputs:
           - openmdao --help
           - webview --help
           - wingproj --help
+    about:
+      summary: ${{ summary }} (with [notebooks])
 
   - package:
       name: openmdao-with-numba
@@ -151,6 +158,8 @@ outputs:
           - openmdao --help
           - webview --help
           - wingproj --help
+    about:
+      summary: ${{ summary }} (with [numba])
 
   - package:
       name: openmdao-with-visualization
@@ -178,6 +187,8 @@ outputs:
           - openmdao --help
           - webview --help
           - wingproj --help
+    about:
+      summary: ${{ summary }} (with [visualization])
 
   - package:
       name: openmdao-with-all
@@ -214,11 +225,13 @@ outputs:
             - websockets >8
         script:
           - python run_testflo.py
+    about:
+      summary: ${{ summary }} (with all extras)
 
 about:
   license: Apache-2.0
   license_file: LICENSE.txt
-  summary: OpenMDAO framework infrastructure
+  summary: ${{ summary }}
   description: |
     OpenMDAO is an open-source high-performance computing platform
     for systems analysis and multidisciplinary optimization, written in Python. It
@@ -230,6 +243,7 @@ about:
   documentation: https://openmdao.org/docs
 
 extra:
+  feedstock-name: openmdao
   recipe-maintainers:
     - robfalck
     - swryan
