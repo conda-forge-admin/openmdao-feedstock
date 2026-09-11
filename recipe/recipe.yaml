@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "3.45.0"
+  version: "3.45.1"
   python_check_max: "3.14"
 
 recipe:
@@ -11,7 +11,7 @@ recipe:
 
 source:
   url: https://pypi.org/packages/source/o/openmdao/openmdao-${{ version }}.tar.gz
-  sha256: 2e342398386230706999433a0eafc3df566e71f89709479323c3f00ab1b69e54
+  sha256: 314c5d796c5dbcc4334b70cd9d306cb8f8db78c84918b8406b88ede56d5cc909
 
 build:
   number: 0

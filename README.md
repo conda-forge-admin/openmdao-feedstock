@@ -56,31 +56,73 @@ conda config --add channels conda-forge
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `openmdao, openmdao-with-all, openmdao-with-doe, openmdao-with-jax, openmdao-with-notebooks, openmdao-with-numba, openmdao-with-visualization` can be installed with `conda`:
+How to use
+----------
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda install openmdao openmdao-with-all openmdao-with-doe openmdao-with-jax openmdao-with-notebooks openmdao-with-numba openmdao-with-visualization
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba install openmdao openmdao-with-all openmdao-with-doe openmdao-with-jax openmdao-with-notebooks openmdao-with-numba openmdao-with-visualization
 ```
 
-It is possible to list all of the versions of `openmdao` available on your platform with `conda`:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+# for adding to your local project
+pixi add openmdao openmdao-with-all openmdao-with-doe openmdao-with-jax openmdao-with-notebooks openmdao-with-numba openmdao-with-visualization
+# for installing globally
+pixi global install openmdao openmdao-with-all openmdao-with-doe openmdao-with-jax openmdao-with-notebooks openmdao-with-numba openmdao-with-visualization
+```
+
+</details>
+
+Search package versions
+-----------------------
+
+It is possible to list all of the versions of `openmdao` available on your platform:
+
+<details>
+<summary>With conda</summary>
 
 ```
 conda search openmdao --channel conda-forge
 ```
 
-or with `mamba`:
+</details>
+
+<details>
+<summary>With mamba</summary>
 
 ```
 mamba search openmdao --channel conda-forge
 ```
 
-Alternatively, `mamba repoquery` may provide more information:
+</details>
+
+<details>
+<summary>With pixi</summary>
+
+```
+pixi search openmdao --channel conda-forge
+```
+
+</details>
+
+<details>
+<summary>With mamba repoquery, which may provide more information</summary>
 
 ```
 # Search all versions available on your platform:
@@ -92,6 +134,8 @@ mamba repoquery whoneeds openmdao --channel conda-forge
 # List dependencies of `openmdao`:
 mamba repoquery depends openmdao --channel conda-forge
 ```
+
+</details>
 
 
 About conda-forge
@@ -163,7 +207,4 @@ Feedstock Maintainers
 * [@bollwyvl](https://github.com/bollwyvl/)
 * [@robfalck](https://github.com/robfalck/)
 * [@swryan](https://github.com/swryan/)
-
-
-<!-- dummy commit to enable rerendering -->
 
