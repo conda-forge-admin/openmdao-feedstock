@@ -36,12 +36,6 @@ Development: https://github.com/OpenMDAO/OpenMDAO
 
 Documentation: https://openmdao.org/docs
 
-OpenMDAO is an open-source high-performance computing platform
-for systems analysis and multidisciplinary optimization, written in Python. It
-enables you to decompose your models, making them easier to build and maintain,
-while still solving them in a tightly coupled manner with efficient parallel
-numerical methods.
-
 About openmdao-with-doe
 -----------------------
 
@@ -54,12 +48,6 @@ Summary: OpenMDAO framework infrastructure (with [doe])
 Development: https://github.com/OpenMDAO/OpenMDAO
 
 Documentation: https://openmdao.org/docs
-
-OpenMDAO is an open-source high-performance computing platform
-for systems analysis and multidisciplinary optimization, written in Python. It
-enables you to decompose your models, making them easier to build and maintain,
-while still solving them in a tightly coupled manner with efficient parallel
-numerical methods.
 
 About openmdao-with-jax
 -----------------------
@@ -74,12 +62,6 @@ Development: https://github.com/OpenMDAO/OpenMDAO
 
 Documentation: https://openmdao.org/docs
 
-OpenMDAO is an open-source high-performance computing platform
-for systems analysis and multidisciplinary optimization, written in Python. It
-enables you to decompose your models, making them easier to build and maintain,
-while still solving them in a tightly coupled manner with efficient parallel
-numerical methods.
-
 About openmdao-with-notebooks
 -----------------------------
 
@@ -92,12 +74,6 @@ Summary: OpenMDAO framework infrastructure (with [notebooks])
 Development: https://github.com/OpenMDAO/OpenMDAO
 
 Documentation: https://openmdao.org/docs
-
-OpenMDAO is an open-source high-performance computing platform
-for systems analysis and multidisciplinary optimization, written in Python. It
-enables you to decompose your models, making them easier to build and maintain,
-while still solving them in a tightly coupled manner with efficient parallel
-numerical methods.
 
 About openmdao-with-numba
 -------------------------
@@ -112,12 +88,6 @@ Development: https://github.com/OpenMDAO/OpenMDAO
 
 Documentation: https://openmdao.org/docs
 
-OpenMDAO is an open-source high-performance computing platform
-for systems analysis and multidisciplinary optimization, written in Python. It
-enables you to decompose your models, making them easier to build and maintain,
-while still solving them in a tightly coupled manner with efficient parallel
-numerical methods.
-
 About openmdao-with-visualization
 ---------------------------------
 
@@ -130,12 +100,6 @@ Summary: OpenMDAO framework infrastructure (with [visualization])
 Development: https://github.com/OpenMDAO/OpenMDAO
 
 Documentation: https://openmdao.org/docs
-
-OpenMDAO is an open-source high-performance computing platform
-for systems analysis and multidisciplinary optimization, written in Python. It
-enables you to decompose your models, making them easier to build and maintain,
-while still solving them in a tightly coupled manner with efficient parallel
-numerical methods.
 
 Current build status
 ====================
